@@ -218,3 +218,11 @@ html {
 * {
   font-size: 1.8rem;
 }
+
+.builder-section label {
+  font-size: 2rem;
+}
+.builder-section input {
+  font-size: 2rem;
+  height: 5rem;
+}

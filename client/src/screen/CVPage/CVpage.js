@@ -19,7 +19,9 @@ const CVpage = () => {
           Download
         </button>
       </div>
-      <Builder />
+      <div className='builder-section'>
+        <Builder />
+      </div>
       <div className='builder-container'>
         <ResumePreview />
       </div>
