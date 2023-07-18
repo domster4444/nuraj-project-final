@@ -9,6 +9,7 @@ const About = () => {
     const { name, value } = e.target;
     setAbout({ ...about, [name]: value });
   };
+  // comment
 
   return (
     <>

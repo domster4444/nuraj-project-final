@@ -47,7 +47,6 @@ html {
 }
 
 .builder-container {
-  display: flex;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -207,6 +206,7 @@ html {
   margin-right: 0.25rem;
 }
 
+/* added job styles */
 .job-main-detail {
   margin-left: 1rem;
 }
@@ -225,4 +225,32 @@ html {
 .builder-section input {
   font-size: 2rem;
   height: 5rem;
+}
+
+#preview-bg {
+  /* position: relative; */
+
+  /* background-image: url("https://i.imgur.com/vcV7MAW.png"); */
+  /* background-size: cover; */
+  /* background-position-y: 9rem; */
+  /* background-repeat: no-repeat; */
+  /* width: 100% !important; */
+}
+
+#preview-white-bg {
+  position: relative;
+}
+
+#abstract-top {
+  height: 400px !important;
+  position: absolute !important;
+  right: 0;
+  top: 0;
+}
+
+#abstract-bottom {
+  height: 400px !important;
+  position: absolute;
+  left: -5rem;
+  top: 400px;
 }
